@@ -14,3 +14,19 @@
 🍿 Fun facts - what does your team eat for breakfast?
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
+
+## Supported Hardware
+
+| **Model**              | **Image**            | **Supported** |
+|------------------------|----------------------|---------------|
+| Raspberry Pi 5      | ![Raspberry Pi 5](image_link) | Yes           |
+| D-Robotics RDK™ X5  | ![RDK™ X5](image_link) | No           |
+| D-Robotics J6       | ![D-Robotics J6](image_link)  | No           |
+| Jetson Orin Nano    | ![Jetson Orin Nano](image_link) | Yes           |
+| Jetson Orin NX      | ![Jetson Orin NX](image_link)   | Yes           |
+| Jetson AGX Orin     | ![Jetson AGX Orin](image_link)  | Yes           |
+| Jetson AGX Xavier   | ![Jetson AGX Xavier](image_link) | Yes           |
+| Jetson Xavier NX    | ![Jetson Xavier NX](image_link)  | Yes           |
+| Jetson TX2          | ![Jetson TX2](image_link)        | Yes           |
+| Jetson Nano         | ![Jetson Nano](image_link)       | Yes           |
+
