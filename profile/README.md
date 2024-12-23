@@ -15,9 +15,9 @@
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
 
-## RoadMap
+## Roadmap
 
-[2025 RoadMap](https://github.com/wheelos/wheelos.github.io/blob/main/roadmap/2025.md)
+[2025 Roadmap](https://github.com/wheelos/wheelos.github.io/blob/main/roadmap/2025.md)
 
 ## Supported Hardware
 
