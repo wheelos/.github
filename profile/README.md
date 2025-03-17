@@ -22,8 +22,9 @@
 ## Supported Hardware
 [Supported Hardware](https://github.com/Desting-lly/.github/blob/main/profile/HardWare.md)
 
-**## Supported Software**
+
+**Supported Software**
 
 
-##awesome
+**awesome**
 [awesome](https://github.com/luanshiyinyang/awesome-multiple-object-tracking)
