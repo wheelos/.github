@@ -69,8 +69,33 @@
 | Traffic Flow                        | One-Way Traffic                |
 |                                     | Two-Way Traffic                |
 |                                     | Presence of Reversible Lanes   |
+|Traffic Behavior                     | Normal Driving                  |
+|                                     | Congestion                      |
+|                                     | Cut-ins                         |      
+|                                     | Sudden Braking                 |
 
-**3.Efficiency & Costs** 
+**3.Vehicle Operational Constraints**
+
+***·Speed Range***
+| Metric                              | Value                     |    
+|-------------------------------------|---------------------------|
+| Minimum Speed                       |                                |
+| Maximum Speed                       |                                |
+
+***·Vehicle Type***
+| Metric                              | Value                     |    
+|-------------------------------------|---------------------------|
+| Passenger Cars                      |                                |
+| Commercial Vehicles                 |                                |
+| Special Purpose Vehicles            |                                |
+
+***·Vehicle Load***
+| Metric                              | Value                     | 
+|-------------------------------------|---------------------------|
+| Unladen                             |                                |
+| Fully Laden                         |                                |
+
+**4.Efficiency & Costs** 
 
 | Metric                              | Value                     |    |
 |-------------------------------------|---------------------------|------|
