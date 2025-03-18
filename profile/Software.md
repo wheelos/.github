@@ -1,31 +1,26 @@
+**1.Simulation Tools**  
+   · [CARLA](https://carla.org)  
+   · [Apollo Simulation](https://apollo.auto)  
+   · [AirSim](https://github.com/Microsoft/AirSim)  
+   · [LGSVL Simulator](https://www.lgsvlsimulator.com)  
+   · [ANSYS VRXPERIENCE](https://www.ansys.com/products/electronics/ansys-vrxperience)  
 
-| ​**Category**         | ​**Tool Name**            |
-|----------------------|--------------------------|
-| ​**Data Collection**  | ROS/ROS2                 |
-|                      | LGSVL Simulator          |
-|                      | Velodyne Lidar SDK       |
-|                      | Apollo Data Recorder     |
-|                      | Databricks Delta Lake    |
-| ​**Data Processing**  | Apache Spark             |
-|                      | AWS S3/Google Cloud      |
-|                      | OpenCV/FFmpeg            |
-|                      | PCL                      |
-| ​**Data Annotation**  | CVAT                     |
-|                      | LabelBox                 |
-|                      | Scale AI                 |
-|                      | SUSTechPoints            |
-| ​**Model Training**   | PyTorch Lightning        |
-|                      | TensorFlow/Keras         |
-|                      | NVIDIA TAO Toolkit       |
-| ​**Simulation & Testing** | CARLA               |
-|                      | NVIDIA Drive Sim         |
-|                      | ANSYS VRXPERIENCE        |
-| ​**OTA Updates**      | Tesla FOTA               |
-|                      | Uptane                   |
-| ​**Middleware & Communication** | Apollo CyberRT |
-|                      | DDS (ROS2)               |
-| ​**HD Mapping Tools** | Lanelet2                |
-|                      | RoadRunner              |
-| ​**Diagnostics & Debugging** | CANoe/CANalyzer |
-|                      | GDB/LLDB                |
-| ​**CI/CD Tools**      | Jenkins/GitLab CI       |
+
+​**2.High-Definition (HD) Mapping Tools**  
+   · [Apollo HD Map](https://apollo.auto)  
+   · [HERE HD Live Map](https://www.here.com)  
+   · [TomTom ADAS Map](https://www.tomtom.com)  
+   · [Lanelet2](https://github.com/fzi-forschungszentrum-informatik/Lanelet2)  
+
+
+**3.Data Annotation Tools**  
+   · [Scale AI](https://scale.com)  
+   · [Labelbox](https://labelbox.com)  
+   · [CVAT](https://cvat.org)  
+   · [Supervisely](https://supervisely.com) 
+
+**4.Model Training Frameworks**  
+   · [NVIDIA DriveWorks & TAO Toolkit](https://developer.nvidia.com/drive)  
+   · [TensorFlow](https://www.tensorflow.org)/[PyTorch](https://pytorch.org) Ecosystem  
+   · [MMDetection3D](https://github.com/open-mmlab/mmdetection3d)  
+   · [Horovod](https://github.com/horovod/horovod)  
