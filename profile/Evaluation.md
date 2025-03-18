@@ -1,15 +1,9 @@
 **1.Safety**
-| Metric                              | Value                     |    |
-|-------------------------------------|---------------------------|------|
-| Disengagement Rate                | ≤0.1/Mm               |
-|                                     | 0.1–0.5/Mm            |
-|                                     | ≥0.5/Mm               |
-| Accident Rate                     | ≤0.1/Gm                |
-|                                     | 0.1–0.29/Gm            |
-|                                     | ≥0.3/Gm                |
-| Extreme Scenario Handling Success | ≥95%                     |
-|                                     | 80%–95%                  |
-|                                     | <80%                     |
+| Metric                              | Value                     |   
+|-------------------------------------|---------------------------|
+| Disengagement Rate                |              |
+| Accident Rate                     |                |
+| Extreme Scenario Handling Success |                    |
 
 **2.Operational Design Domain(ODD)**
 
