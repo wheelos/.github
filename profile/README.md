@@ -1,35 +1,37 @@
-## Hi there 👋
+## 👋 Welcome to WheelOS
 
-**wheelos** is a new autonomous driving system, you can find the design documentation here.
+WheelOS is a modular autonomous driving system for research and rapid development.
 
-[中文](https://cx8sal2qit.feishu.cn/wiki/YOSmwe8qZiui6IkxIQScz7SMnzJ?from=from_copylink)
+🧠 Features:
+- Lightweight and hardware-friendly
+- Modular planning, control, and perception
+- Jetson / Raspberry Pi / x86 support
+- Simulation-ready (Unreal, CARLA)
 
-<!--
+---
 
-**Here are some ideas to get you started:**
+📄 Docs (中文): [wheelos设计文档](https://cx8sal2qit.feishu.cn/wiki/YOSmwe8qZiui6IkxIQScz7SMnzJ?from=from_copylink)
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+- 📊 Evaluation → [2025 Evaluation](Evaluation.md)
+- 🛣️ Roadmap → [2025 Roadmap](https://github.com/wheelos/wheelos.github.io/blob/main/roadmap/2025.md)
+- 🧰 Hardware → [Supported Platforms](HardWare.md)
+- 💻 Software → [Software Stack](Software.md)
+- 🌟 Awesome → [Curated Resources](Awesome.md)
 
-##  Evaluation
-[2025 Evaluation](https://github.com/Desting-lly/.github/blob/main/profile/Evaluation.md)
+---
 
-## Roadmap
-[2025 Roadmap](https://github.com/wheelos/wheelos.github.io/blob/main/roadmap/2025.md)
+### 🤝 Contributing
 
-## Supported Hardware
-[2025 Supported Hardware](https://github.com/Desting-lly/.github/blob/main/profile/HardWare.md)
+We welcome issues, discussions, and pull requests.
+Get involved and help shape the future of WheelOS.
 
+---
 
-##  Software
-[2025 Software](https://github.com/Desting-lly/.github/blob/main/profile/Software.md)
+## 🛡 License
 
+WheelOS is released under the Apache 2.0 License.
+See the [LICENSE](./LICENSE) file for details.
 
-##  Awesome
-[awesome](https://github.com/Desting-lly/.github/blob/main/profile/Awesome.md)
+---
 
-
+Built with ❤️ by the WheelOS team.
