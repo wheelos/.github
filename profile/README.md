@@ -10,7 +10,7 @@ WheelOS is a modular autonomous driving system for research and rapid developmen
 
 ---
 
-📄 Docs (中文): [wheelos设计文档](https://cx8sal2qit.feishu.cn/wiki/YOSmwe8qZiui6IkxIQScz7SMnzJ?from=from_copylink)
+📄 Docs (中文): [wheelos设计文档](https://fcn5tm1hmy9p.feishu.cn/wiki/J5ujwMD44iz6IlkD7etcFfrinZf?from=from_copylink)
 
 - 📊 Evaluation → [2025 Evaluation](Evaluation.md)
 - 🛣️ Roadmap → [2025 Roadmap](https://github.com/wheelos/wheelos.github.io/blob/main/roadmap/2025.md)
