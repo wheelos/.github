@@ -1,67 +1,53 @@
-**Autonomous Driving System Evaluation Metrics**
+# Autonomous Driving Evaluation Metrics
 
-A comprehensive set of evaluation dimensions and metrics to assess the safety, robustness, efficiency, and cost-effectiveness of autonomous driving systems.
+Reference metrics for evaluating safety, operational coverage, performance,
+reliability, user experience, and cost.
 
----
+## Safety
 
-## 1. Safety
+- **Disengagement rate:** Human interventions per distance or operating hour.
+- **Accident rate:** Collisions or safety-critical incidents per distance or hour.
+- **Near-miss rate:** Events that narrowly avoid a collision.
+- **Edge-case success rate:** Correct responses to rare or emergency scenarios.
+- **Safety-critical alerts:** Emergency warnings issued to the driver.
 
-* **Disengagement Rate**: Number of human interventions per 1,000 miles or kilometers driven.
-* **Accident Rate**: Number of collisions or safety-critical incidents per test distance or hours.
-* **Near-Miss Rate**: Number of events where the system narrowly avoided a collision.
-* **Extreme Scenario Handling Success Rate**: Percentage of correct responses in rare or emergency situations (e.g., pedestrian darting into the road, high-speed cut-ins).
-* **Safety-Critical HMI Alerts**: Number of emergency alerts or warnings issued to the driver.
+## Operational Design Domain
 
-## 2. Operational Design Domain (ODD)
+- **Weather coverage:** Supported weather conditions and test distance.
+- **Lighting coverage:** Day, night, dawn, dusk, tunnel, and transition coverage.
+- **Visibility range:** Effective perception distance under degraded visibility.
+- **Road coverage:** Highways, urban, suburban, rural, and private roads.
+- **Topology robustness:** Performance at intersections, roundabouts, and work zones.
+- **Traffic adaptability:** Performance across traffic densities and road-user types.
+- **Behavioral edge cases:** Response to non-standard road-user behavior.
 
-### 2.1 Environmental Conditions
+## Vehicle Constraints
 
-* **Weather Coverage**: Number of supported weather conditions and test miles under each (clear, cloudy, light/moderate/heavy rain, light/moderate/heavy snow, light/dense fog, hail, strong winds).
-* **Lighting Conditions Support**: Test mileage in daylight, nighttime, dawn, dusk, tunnels, and sudden lighting transitions.
-* **Visibility Range**: Effective perception distance under different visibility levels (fog, rain, snow).
+- **Speed compliance:** Time within configured speed limits.
+- **Load sensitivity:** Braking and acceleration changes under different loads.
+- **Vehicle adaptation:** Performance across supported vehicle types.
 
-### 2.2 Geographic Domain
+## Computational Performance
 
-* **Road Type Coverage**: Proportion of test miles on highways, urban roads, suburban roads, rural roads, and private roads.
-* **Topology Robustness**: Success rate in handling intersections, roundabouts, construction zones, and complex road layouts.
+- **Inference latency:** Average and maximum processing delay.
+- **Throughput:** Sustained processing rate at target sensor frequencies.
+- **Resource utilization:** CPU, GPU, memory, and network usage.
+- **Power consumption:** Energy used by onboard compute.
 
-### 2.3 Traffic Conditions
+## Reliability
 
-* **Traffic Density Adaptability**: Average speed and safety metrics under light, moderate, and heavy traffic.
-* **Dynamic Object Diversity**: Detection and avoidance accuracy for various road users (cars, trucks, motorcycles, bicycles, pedestrians, animals).
-* **Behavioral Edge Cases**: Success rate in responding to non-standard behaviors (running red lights, aggressive lane changes, sudden braking).
+- **Failure rate:** Frequency of software or hardware failures.
+- **Recovery time:** Time to return to normal operation after a fault.
+- **Sensor degradation handling:** Performance retention with degraded sensors.
 
-## 3. Vehicle Operational Constraints
+## User Experience
 
-* **Speed Range Compliance**: Percentage of time the system stays within specified minimum and maximum speed limits.
-* **Load & Weight Impact**: Variation in braking distance and acceleration under different load conditions (unladen vs. fully loaded).
-* **Vehicle Type Adaptation**: Performance benchmarks for passenger cars, commercial vehicles, and special-purpose vehicles.
+- **Comfort:** Lateral and longitudinal acceleration variation.
+- **Ride smoothness:** Composite score from motion signals and feedback.
+- **Driver interaction frequency:** Manual overrides or driver alerts per distance.
 
-## 4. Computational Performance
+## Efficiency and Cost
 
-* **Inference Latency**: Average and maximum delay of perception and decision-making modules.
-* **Throughput**: Sustained processing capability (frames per second) at target sensor rates.
-* **Resource Utilization**: CPU, GPU, memory, and network bandwidth usage.
-* **Power Consumption**: Energy usage of the onboard compute platform under typical load.
-
-## 5. Robustness & Reliability
-
-* **Failure Rate**: Frequency of software or hardware failures leading to degraded performance or system resets.
-* **Recovery Time**: Time required for the system to return to normal operation after a fault or anomaly.
-* **Sensor Degradation Handling**: Performance retention rate when sensors are partially obstructed or degraded.
-
-## 6. User Experience
-
-* **Comfort Metrics**: Lateral and longitudinal acceleration variation, counts of harsh acceleration or braking events.
-* **Ride Smoothness Score**: Composite rating based on passenger feedback and acceleration signals.
-* **Driver Interaction Frequency**: Number of manual overrides or driver alerts per distance.
-
-## 7. Efficiency & Cost
-
-* **Operational Efficiency**: Average trip time, average speed, and route optimality.
-* **Operational Cost**: Energy consumption per distance and maintenance costs.
-* **Total Cost of Ownership**: Combined hardware, software, maintenance, and operational expenses.
-
----
-
-*These metrics can be quantified through real-world testing or simulation. Contributions and additions are welcome!*
+- **Operational efficiency:** Trip time, average speed, and route optimality.
+- **Operational cost:** Energy use and maintenance cost per distance.
+- **Total cost of ownership:** Hardware, software, maintenance, and operations.

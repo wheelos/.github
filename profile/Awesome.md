@@ -1,82 +1,62 @@
-**Awesome Autonomous Driving Resources**
+# Autonomous Driving Resources
 
-A curated list of top-tier repositories, papers, frameworks, toolkits, and datasets covering various aspects of autonomous driving, from perception and planning to simulation and real-world deployment. Inspired by industry best practices and leading research.
+Curated repositories, papers, frameworks, toolkits, simulators, datasets, and
+benchmarks related to autonomous-driving research and development.
 
----
+## Tracking
 
-## Table of Contents
+- [Awesome Multiple Object Tracking](https://github.com/luanshiyinyang/awesome-multiple-object-tracking)
+- [FairMOT](https://github.com/ifzhang/FairMOT)
+- [ByteTrack](https://github.com/ifzhang/ByteTrack)
 
-1. [Multiple Object Tracking (MOT)](#multiple-object-tracking-mot)
-2. [3D Object Detection](#3d-object-detection)
-3. [Sensor Fusion & Localization](#sensor-fusion--localization)
-4. [Perception & Segmentation](#perception--segmentation)
-5. [Motion Planning & Control](#motion-planning--control)
-6. [Simulation & Testing](#simulation--testing)
-7. [Datasets & Benchmarks](#datasets--benchmarks)
-8. [End-to-End Learning & Reinforcement Learning](#end-to-end-learning--reinforcement-learning)
-9. [Autonomous Driving Frameworks](#autonomous-driving-frameworks)
-10. [Research Papers & Surveys](#research-papers--surveys)
+## 3D Detection
 
----
+- [Awesome 3D Object Detection](https://github.com/PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving)
+- [OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
+- [CenterPoint](https://github.com/tianweiy/CenterPoint)
 
-### Multiple Object Tracking (MOT)
+## Localization and Fusion
 
-* [Awesome Multiple Object Tracking](https://github.com/luanshiyinyang/awesome-multiple-object-tracking)
-* [FairMOT](https://github.com/ifzhang/FairMOT) — Joint detection and tracking, high accuracy in real-time applications.
-* [ByteTrack](https://github.com/ifzhang/ByteTrack) — High-quality tracking by associating low-score detections.
+- [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
+- [LOAM](https://github.com/laboshinl/loam_velodyne)
+- [Autoware.Auto](https://github.com/Autoware-AI/autoware.auto)
 
-### 3D Object Detection
+## Perception and Segmentation
 
-* [Awesome 3D Object Detection for Autonomous Driving](https://github.com/PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving)
-* [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) — Open-source toolbox for LiDAR-based 3D object detection.
-* [CenterPoint](https://github.com/tianweiy/CenterPoint) — Center-based 3D detection for both objects and persons.
+- [DeepLabV3+](https://github.com/jfzhang95/pytorch-deeplab-xception)
+- [Mask R-CNN](https://github.com/facebookresearch/detectron2)
+- [SemanticKITTI](http://www.semantic-kitti.org/)
 
-### Sensor Fusion & Localization
+## Planning and Control
 
-* [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) — LiDAR-Inertial odometry via smoothing and mapping.
-* [LOAM](https://github.com/laboshinl/loam_velodyne) — LiDAR odometry and mapping in real time.
-* [Autoware.Auto](https://github.com/Autoware-AI/autoware.auto) — Integrated modules for localization and perception.
+- [OpenPlanner](https://github.com/AberHu/OpenPlanner)
+- [CARLA](https://github.com/carla-simulator/carla)
+- [Model Predictive Control examples](https://github.com/AtsushiSakai/PythonRobotics/tree/master/PathPlanning)
 
-### Perception & Segmentation
+## Simulation
 
-* [DeepLabV3+](https://github.com/jfzhang95/pytorch-deeplab-xception) — State-of-the-art semantic segmentation.
-* [Mask R-CNN](https://github.com/facebookresearch/detectron2) — Instance segmentation and object detection.
-* [SemanticKITTI](http://www.semantic-kitti.org/) — Benchmark for LiDAR segmentation.
+- [CARLA](https://github.com/carla-simulator/carla)
+- [LGSVL Simulator](https://github.com/lgsvl/simulator)
+- [SUMO](https://github.com/eclipse/sumo)
 
-### Motion Planning & Control
+## Datasets and Benchmarks
 
-* [OpenPlanner](https://github.com/AberHu/OpenPlanner) — Real-time autonomous driving planner.
-* [CARLA Autonomous Driving Leaderboard](https://github.com/carla-simulator/carla) — Includes benchmark ROS integration and control interfaces.
-* [MPC for Autonomous Driving](https://github.com/AtsushiSakai/PythonRobotics/tree/master/PathPlanning) — Model predictive control examples.
+- [KITTI](http://www.cvlibs.net/datasets/kitti/)
+- [nuScenes](https://www.nuscenes.org/)
+- [Waymo Open Dataset](https://waymo.com/open/)
 
-### Simulation & Testing
+## End-to-End and Reinforcement Learning
 
-* [CARLA Simulator](https://github.com/carla-simulator/carla) — High-fidelity simulation for autonomous driving research.
-* [LGSVL Simulator](https://github.com/lgsvl/simulator) — Open-source simulator with sensor and traffic support.
-* [SUMO](https://github.com/eclipse/sumo) — Scalable urban mobility simulation.
+- [DriveRL](https://github.com/wayveai/drive-rl)
+- [Imitation Learning](https://github.com/ghliu/pytorch-ail)
 
-### Datasets & Benchmarks
+## Autonomous Driving Frameworks
 
-* [KITTI Vision Benchmark](http://www.cvlibs.net/datasets/kitti/) — Stereo, optical flow, visual odometry, 3D object detection.
-* [nuScenes](https://www.nuscenes.org/) — Large-scale multi-modal dataset with full sensor suite.
-* [Waymo Open Dataset](https://waymo.com/open/) — Camera and LiDAR data from diverse driving scenarios.
+- [Apollo](https://github.com/ApolloAuto/apollo)
+- [Autoware](https://github.com/Autoware-AI/autoware.ai)
+- [ROS 2 for Autonomous Vehicles](https://github.com/RSS-Drivers-Package/AGV)
 
-### End-to-End Learning & Reinforcement Learning
+## Research
 
-* [DriveRL](https://github.com/wayveai/drive-rl) — Reinforcement learning framework for end-to-end driving.
-* [Imitation Learning](https://github.com/ghliu/pytorch-ail) — Behavioral cloning and DAGGER implementations.
-
-### Autonomous Driving Frameworks
-
-* [Apollo Auto](https://github.com/ApolloAuto/apollo) — Baidu's complete autonomous driving platform.
-* [Autoware](https://github.com/Autoware-AI/autoware.ai) — Full-stack autonomous driving software stack.
-* [ROS 2 for Autonomous Vehicles](https://github.com/RSS-Drivers-Package/AGV) — ROS2 packages tailored for AV development.
-
-### Research Papers & Surveys
-
-* [A Survey on Perception and Decision-Making for Autonomous Driving](https://arxiv.org/abs/2006.02868)
-* [End-to-End Learning for Self-Driving Vehicles](https://arxiv.org/abs/1812.05721)
-
----
-
-*Contributions welcome! Please open an issue or submit a pull request to add more resources.*
+- [Perception and Decision-Making Survey](https://arxiv.org/abs/2006.02868)
+- [End-to-End Learning for Self-Driving](https://arxiv.org/abs/1812.05721)

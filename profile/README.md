@@ -1,37 +1,33 @@
-## 👋 Welcome to WheelOS
+# WheelOS
 
-WheelOS is a modular autonomous driving system for research and rapid development.
+## Overview
 
-🧠 Features:
-- Lightweight and hardware-friendly
-- Modular planning, control, and perception
-- Jetson / Raspberry Pi / x86 support
-- Simulation-ready (Unreal, CARLA)
+WheelOS is a modular autonomous driving system for research and rapid
+development. Its documented scope covers perception, planning, control,
+hardware platforms, software tools, simulation, and evaluation.
 
----
+This repository is the WheelOS GitHub Organization profile and documentation
+index.
 
-📄 Docs (中文): [wheelos设计文档](https://fcn5tm1hmy9p.feishu.cn/wiki/J5ujwMD44iz6IlkD7etcFfrinZf?from=from_copylink)
+## Architecture
 
-- 📊 Evaluation → [2025 Evaluation](Evaluation.md)
-- 🛣️ Roadmap → [2025 Roadmap](https://github.com/wheelos/wheelos.github.io/blob/main/roadmap/2025.md)
-- 🧰 Hardware → [Supported Platforms](HardWare.md)
-- 💻 Software → [Software Stack](Software.md)
-- 🌟 Awesome → [Curated Resources](Awesome.md)
+The profile organizes WheelOS references into:
 
----
+```text
+Organization profile
+    |
+    +--> Design documentation
+    +--> Hardware references
+    +--> Software references
+    +--> Evaluation metrics
+    +--> Curated resources
+```
 
-### 🤝 Contributing
+## Documentation
 
-We welcome issues, discussions, and pull requests.
-Get involved and help shape the future of WheelOS.
-
----
-
-## 🛡 License
-
-WheelOS is released under the Apache 2.0 License.
-See the [LICENSE](./LICENSE) file for details.
-
----
-
-Built with ❤️ by the WheelOS team.
+- [Design documentation (Chinese)](https://fcn5tm1hmy9p.feishu.cn/wiki/J5ujwMD44iz6IlkD7etcFfrinZf?from=from_copylink)
+- [Evaluation metrics](Evaluation.md)
+- [Roadmap](https://github.com/wheelos/wheelos.github.io/blob/main/roadmap/2025.md)
+- [Hardware support matrix](HardWare.md)
+- [Software references](Software.md)
+- [Curated resources](Awesome.md)
